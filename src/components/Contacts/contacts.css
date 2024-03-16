@@ -1,0 +1,34 @@
+
+.contact__container {
+    max-width: 130rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 2%;
+    margin-bottom: 4rem;
+}
+
+.contact__container h3 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.contact__item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact__item p {
+    margin-bottom: 1rem;
+    border-bottom: .1rem solid var(--gpt-lightgray);
+    padding-bottom: .5rem;
+}
+
+@media screen and (max-width: 48em) {
+    .contact__item {
+        flex-direction: column;
+        gap: 4rem;
+    }
+}

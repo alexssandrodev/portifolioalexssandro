@@ -1,0 +1,141 @@
+
+.item__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.item__container .item__modalimage {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.7;
+    padding: 1rem;
+    box-shadow: 2rem 4rem 7rem rgba(0, 0, 0, 0.5);
+    position: relative;
+    transition: all .5s ease-in;
+    z-index: 23;
+}
+
+.item__modalimage.active_modal {
+    display: block;
+}
+
+.item__modalimage.close_modal {
+    display: none;
+}
+
+.item__modalimage .iconx {
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.item__container .item__modalimage .item__modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebebeb;
+    width: 90rem;
+    border-radius: 1rem;
+    transition: all .5s ease-in;
+}
+
+.item__container .item__modalimage .item__modal img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.item__container .item__box {
+    display: flex;
+    gap: 2rem;
+    flex: 1;
+    background-color: #ebebeb;
+    padding: 1rem;
+    border-radius: 1rem;
+    transform: translateX(-15rem);
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+.item__container .item__box img {
+    width: 50%;
+    border-radius: 1rem;
+    object-fit: cover;
+    transform: scale(0.9);
+    cursor: pointer;
+    transition: all .5s ease-in;
+}
+
+.item__container .item__box img:hover {
+    transform: scale(1);
+    transform: rotate(2deg);
+}
+
+.item__container .item__box .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.item__container .item__box .right .top {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.right .top .techs {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.right .top .techs p {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #a0ffff;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    color: var(--gpt-lightgray);
+}
+
+.right .buttons {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.right .buttons .btn {
+    background-color: var(--gpt-lightgray);
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+    color: #fff;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.right .buttons .btn:hover {
+    background-color: #545454;
+}
+
+@media screen and (max-width: 48em) {
+    .item__container {
+        flex: 1;
+    }
+
+    .item__box {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .item__container .item__box img {
+        width: 100%;
+    }
+}

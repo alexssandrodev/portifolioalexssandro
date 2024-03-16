@@ -1,0 +1,11 @@
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--gpt-sidebar);
+    padding: 1rem;
+}
+
+.footer p {
+    color: #fff;
+}

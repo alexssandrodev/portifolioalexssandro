@@ -1,0 +1,28 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap'); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  border: 0;
+  text-decoration: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --gpt-gray: #343541;
+  --gpt-sidebar: #282933;
+  --gpt-lightgray: #40414f;
+  --gpt-text: #fdfdfd;
+  --orange-infosolutions: #f47d31;
+  font-size: 62.5%;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.4rem;
+  background-color: var(--gpt-text);
+  color: var(--gpt-sidebar);
+}

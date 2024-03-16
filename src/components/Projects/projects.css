@@ -1,0 +1,12 @@
+
+.projects__container {
+    max-width: 130rem;
+    width: 100%;
+    margin: 4rem auto;
+    padding: 2rem 2%;
+}
+
+.projects__container h4 {
+    font-weight: 400;
+    font-size: 2.5rem;
+}
