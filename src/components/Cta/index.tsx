@@ -9,10 +9,10 @@ function Cta() {
                     Sou programador fullstack, atuo desenvolvendo soluções como,
                     sites, sistemas web, landing pages...
                 </p>
-                <span>
+                <a target="_blanc" href="http://api.whatsapp.com/send?1=pt_BR&phone=5584996102818">
                     <p><IconBrandWhatsapp /></p>
-                    <h4>(84) 99610-2818</h4>
-                </span>
+                    <h4>Meu Whatsapp</h4>
+                </a>
             </div>
             <div className={styles.logo}>
                 <h1>Alexssandro Vicente</h1>

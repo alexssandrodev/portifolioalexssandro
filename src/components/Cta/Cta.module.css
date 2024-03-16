@@ -20,20 +20,24 @@
     line-height: 3rem;
 }
 
-.copy span {
+.copy a {
     width: 18rem;
     display: flex;
     align-items: center;
     gap: 1rem;
     margin-top: 2rem;
-    border-top: .1rem solid var(--orange-infosolutions);
-    border-left: .1rem solid var(--orange-infosolutions);
+    background-color: #25D366;
+    color: #fff;
     padding: 1rem;
     border-radius: 1rem;
 }
 
 .copy span p {
-    color: #a2ff3e;
+    color: #fff;
+}
+
+.copy span h4 a {
+    color: #fff;
 }
 
 .copy h2 {
